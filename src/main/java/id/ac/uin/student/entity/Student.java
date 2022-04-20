@@ -55,6 +55,6 @@ public class Student {
     private String phoneNumber;
 
     @NotEmpty(message = "Jurusan is required")
-    @Column(nullable = false, unique = true)
+    @Column(nullable = false)
     private String jurusan;
 }
